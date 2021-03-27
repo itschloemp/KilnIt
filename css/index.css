@@ -1,9 +1,9 @@
 /* Text */
-h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+h1, h2, h3 , h4, h5, h6, .btn{
+  font-family: 'Nerko One', cursive;
 }
 p {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Navigation bar */
@@ -82,10 +82,16 @@ p {
 .cardContainer {
   text-align: center;
 }
+.card-title {
+  color: #DE8543;
+}
+.sectionHeading {
+  color: #DE8543;
+}
 
 /* Content */
 .sideAccent {
-  background: #007bff;
+  background: #DE8543;
   width: 15px;
 }
 .imageContainer img {
@@ -97,6 +103,14 @@ p {
 .valueProp {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+.btn {
+  color: white;
+  background-color: #DE8543;
+  border-bottom: #DE8543;
+  border-top:#DE8543;
+  border-left: #DE8543;
+  border-right: #DE8543;
 }
 
 /* Footer */
